@@ -168,23 +168,28 @@ body {
 
 .sever_title {
     position: absolute;
-    top: 32%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .sever_title h1 {
     font-size: 40px;
 }
 
 .sever_menu {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     gap: 8px;
+}
+
+.sever_menu_01 {
+    top: 45%;
 }
 
 .sever_menu li {
@@ -201,19 +206,23 @@ li.on {
     background-color: #f1d1e0;
 }
 .sever_menu2 {
-    top: 47%;
+    top: 52%;
 }
 
 /* sever_box */
 .sever_box {
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, 0%);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px 20px;
     padding-bottom: 120px;
+}
+
+.sever_box_01 {
+    top: 54%;
 }
 .sever_box li {
     width: 170px;
@@ -226,8 +235,8 @@ li.on {
 .sever_box li .title_img img {
     width: 170px;
     height: 170px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .sever_box_text {
@@ -238,9 +247,12 @@ li.on {
 .sever_box_text h6 {
     font-size: 16px;
     margin-bottom: 10px;
+    letter-spacing: -0.8px;
 }
 .sever_box_text h5 {
-    font-size: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -1px;
 }
 .sever_box_text h4 {
     margin-top: 15px;
@@ -248,26 +260,11 @@ li.on {
     line-height: 12px;
 }
 
-.good_bed {
-    display: flex;
-    margin-top: 15px;
-    gap: 5px;
-}
-
-.good_bed img {
-    width: 17px;
-    height: 17px;
-}
-
-.good_bed h6 {
-    font-size: 8px;
-}
-
 /* recipe_page */
 
 .little_img img {
     position: absolute;
-    top: 59%;
+    top: 68%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100px;
@@ -277,14 +274,14 @@ li.on {
 }
 .little_img h6 {
     position: absolute;
-    top: 67%;
+    top: 77%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .recipe img {
     position: absolute;
-    top: 97%;
+    top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 380px;
@@ -295,8 +292,8 @@ li.on {
 .recipe_bottom {
     height: 130px;
     position: absolute;
-    top: 133%;
-    left: 42%;
+    top: 146%;
+    left: 40%;
     transform: translate(-50%, -50%);
     display: flex;
     gap: 50px;
@@ -331,11 +328,24 @@ li.on {
     .page_menu {
         top: 15%;
     }
+    .little_img_01 img {
+        top: 63%;
+    }
+
+    .little_img_01 h6 {
+        top: 73%;
+    }
     .recipe img {
-        top: 100%;
+        top: 115%;
+    }
+    .recipe_01 img {
+        top: 112%;
     }
     .recipe_bottom {
-        top: 140%;
+        top: 155%;
         left: 30%;
+    }
+    .recipe_bottom_01 {
+        top: 152%;
     }
 }

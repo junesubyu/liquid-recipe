@@ -8,7 +8,7 @@ export default function Fruit_ect_sever_menu() {
             <ul className="sever_menu">
                 <Link to={'/Fruit'}>
                     <li>
-                        <h4>열대(tropical)</h4>
+                        <h4>열대(Tropical)</h4>
                     </li>
                 </Link>
                 <Link to={'/Fruit_lime'}>

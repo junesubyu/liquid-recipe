@@ -31,6 +31,9 @@ import Fruit_ect_01 from './components/Fruit_ect_01'
 import Fruit_ect_02 from './components/Fruit_ect_02'
 import Fruit_ect_03 from './components/Fruit_ect_03'
 import Fruit_ect_04 from './components/Fruit_ect_04'
+import Dessert_cream from './components/Dessert_cream'
+import Dessert_cream_01 from './components/Dessert_cream_01'
+import Dessert_cream_02 from './components/Dessert_cream_02'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export default function App() {
@@ -112,6 +115,15 @@ export default function App() {
                     <Route path="/fruit_ect_02" element={<Fruit_ect_02 />} />
                     <Route path="/fruit_ect_03" element={<Fruit_ect_03 />} />
                     <Route path="/fruit_ect_04" element={<Fruit_ect_04 />} />
+                    <Route path="/Dessert_cream" element={<Dessert_cream />} />
+                    <Route
+                        path="/Dessert_cream_01"
+                        element={<Dessert_cream_01 />}
+                    />
+                    <Route
+                        path="/Dessert_cream_02"
+                        element={<Dessert_cream_02 />}
+                    />
                 </Routes>
             </div>
         </BrowserRouter>
