@@ -13,13 +13,15 @@ export default function Home() {
                         </div>
                     </li>
                 </Link>
-                <li className="menu_text2 box">
-                    <div className="text_box2">
-                        <h1>Dessert </h1>
-                        <p>달콤 & 디저트</p>
-                        <p>업데이트중입니다.</p>
-                    </div>
-                </li>
+                <Link to={'/Dessert_cream'}>
+                    <li className="menu_text2 box">
+                        <div className="text_box2">
+                            <h1>Dessert </h1>
+                            <p>달콤 & 디저트</p>
+                            <p>업데이트중입니다.</p>
+                        </div>
+                    </li>
+                </Link>
                 <li className="menu_text3 box">
                     <div className="text_box2">
                         <h1>Beverage </h1>
